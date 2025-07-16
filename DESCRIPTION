@@ -1,0 +1,15 @@
+Package: genvers
+Title: identifies KBAs
+Version: 0.1.1
+Authors@R: 
+    person("Sarah Christin", "Gronefeld", , "gronefeld@uni-trier.de", role = c("aut", "cre"))
+Description: The package formats genpop objects so they can be used by taxondive() of the vegan package. Finally it offers ways to apply your KBA threshold.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: vegan
+Suggests: 
+    adegenet,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
